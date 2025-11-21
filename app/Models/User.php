@@ -12,6 +12,10 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
 
+/**
+ * @property string $role
+ */
+
 class User extends Authenticatable
 {
     /**@use HasFactory<\Database\Factories\UserFactory> */
@@ -67,7 +71,7 @@ class User extends Authenticatable
     /**
      * @return HasMany<Task,$this>
      */
-    public function created_tasks(): HasMany
+    public function createdTasks(): HasMany
     {
         return $this->hasMany(Task::class, 'owner_id');
     }
