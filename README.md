@@ -1,12 +1,12 @@
-# 🐳 SoftXpert Task Management API (Dockerized)
+# 🐳 Ideal Laravel Task Management API (Dockerized)
 
-A robust RESTful backend API for task management built with **Laravel**, tested using **PestPHP**, and containerized using **Laravel Sail (Docker)**. It supports role-based access control (Admin, Manager, User), task dependencies, status workflows, and a clean developer experience.
+A robust RESTful backend API for task management built with **Laravel**, tested using **PestPHP**, and containerised using **Laravel Sail (Docker)**. It supports role-based access control (Admin, Manager, User), task dependencies, status workflows, and a clean developer experience.
 
 ---
 
 ## 📄 Table of Contents
 
-- [🐳 SoftXpert Task Management API (Dockerized)](#-softxpert-task-management-api-dockerized)
+- [🐳 Ideal Laravel Task Management API (Dockerized)](#-Ideal Laravel-task-management-api-dockerized)
   - [📄 Table of Contents](#-table-of-contents)
   - [📚 Features](#-features)
   - [📊 ER Diagram](#-er-diagram)
